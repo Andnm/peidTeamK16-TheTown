@@ -1,4 +1,4 @@
-<h1 align="center"> <a href="https://www.facebook.com/groups/318166702534463" target="_blank">PEID TEAM</a> - THE TOWN </h1>           
+<h1 align="center"> <a href="https://www.facebook.com/groups/318166702534463">PEID TEAM</a> - THE TOWN </h1>           
 <h2 align="center"> 🔥Starting project https://templatemo.com/live/templatemo_525_the_town </h2>
 <p align="center"><i>(a project to practice skills and for learning purpose)</i></p>
 
@@ -8,13 +8,13 @@
      <p align="center"><img src="https://user-images.githubusercontent.com/68959566/126251161-0ce0c6f7-2b2f-48eb-bda9-d40be4c8dc13.png" width="580px"/></p>
 * Introduction: **Châu Vĩnh Trinh**
      ###### To-do description: 
-     <p align="center"><img src="https://user-images.githubusercontent.com/68959566/126251226-9065229e-aac4-461a-af07-28e4c39217a6.png" width="580px" target="_blank"/></p>
+     <p align="center"><img src="https://user-images.githubusercontent.com/68959566/126251226-9065229e-aac4-461a-af07-28e4c39217a6.png" width="580px"/></p>
 * Our Work: **Đặng Nguyễn Minh An**
      ###### To-do description: 
-     <p align="center"><img src="https://user-images.githubusercontent.com/68959566/126251260-07e125fa-a817-445a-9acf-f2e2a661efb6.png" width="580px" target="_blank"/></p>
+     <p align="center"><img src="https://user-images.githubusercontent.com/68959566/126251260-07e125fa-a817-445a-9acf-f2e2a661efb6.png" width="580px"/></p>
 * Contact Us: **Trần Thị Dịu Hương**
      ###### To-do description: 
-     <p align="center"><img src="https://user-images.githubusercontent.com/68959566/126251459-d318d0fe-b434-442a-8339-8aae44b7b98a.png" width="580px" target="_blank"/></p>
+     <p align="center"><img src="https://user-images.githubusercontent.com/68959566/126251459-d318d0fe-b434-442a-8339-8aae44b7b98a.png" width="580px"/></p>
      
 ### Participants:
 - Mentor: <a href="https://www.facebook.com/nomadic.lodestar" target="_blank">Lê Điệp</a>
