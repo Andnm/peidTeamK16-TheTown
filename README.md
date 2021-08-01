@@ -1,4 +1,4 @@
-<h1 align="center"> <a href="https://www.facebook.com/groups/318166702534463">PEID TEAM</a> - THE TOWN </h1>           
+<h1 align="center"> <a href="https://www.facebook.com/groups/318166702534463">PIED TEAM</a> - THE TOWN </h1>           
 <h2 align="center"> 🔥Starting project https://templatemo.com/live/templatemo_525_the_town </h2>
 <p align="center"><i>(a project to practice skills and for learning purpose)</i></p>
 
