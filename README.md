@@ -25,12 +25,21 @@
      - <a href="https://www.facebook.com/maomaokongu" target="_blank">Dịu Hương</a>
 
 ### Work progress:
-
-
-
-
-
-
+- 20/07: Clone and create branch (Deadline: 22h 20/07)
+     - An: Done.
+     - Kha: Done.
+     - Trinh: Subsequent to the deadline (23h15).
+     - Hương: Subsequent to the deadline (11h28, 21/7).
+- 30/07: Complete at least 50% of the assigned tasks (Deadline: 22h 01/08)
+     - An: Done.
+     - Kha: Pendent.
+     - Trinh: Pendent.
+     - Hương: Pendent.
+- 02/08: Pushing the code to GitHub for the first checkout
+     - An: Done (Complete the task in the project).
+     - Kha: Pending.
+     - Trinh: Pending.
+     - Hương: Pending.
 
 ### Languages and Tools:
 <img align="left" alt="Visual Studio Code" width="44px" src="https://www.solucionex.com/sites/default/files/posts/imagen/vscode-800x450.png"/>
