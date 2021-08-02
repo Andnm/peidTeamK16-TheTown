@@ -1,0 +1,153 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container__our-work {
+    max-width: 100%;
+    margin: 70px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+    
+.text-center {
+    text-align: center;
+}
+
+.title {
+    color: #3496d8;
+    font-weight: normal;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    color: #8f8f8f;
+    max-width: 650px;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    line-height: 1.9;
+}
+
+.gallery {
+    margin-bottom: 70px;
+}
+
+.gallery-collection {
+    margin: 0 auto;
+    max-width: 1260px; 
+    padding-top: 70px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    width: 22rem;
+    height: 33rem;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.gallery-item:hover {
+    cursor: pointer;
+}
+
+.gallery-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(111, 66, 193, 0.8), rgba(111, 66, 193, 0.8));
+    z-index: 2;
+    transition: 0.3s all;
+    opacity: 0;
+}
+
+.gallery-item:hover:before {
+    opacity: 0.3;
+}
+
+.gallery-item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gallery-item .gallery-item-content {
+    position: absolute;
+    bottom: -2rem;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: 0.3s all;
+}
+
+.gallery-item:hover .gallery-item-content {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.gallery-item .gallery-item-content {
+    font-weight: 400;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    span {
+        font-weight: 800;
+    }
+    padding: 5rem 5rem;
+}
+
+.gallery-item-underline {
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    width: 100%;
+    height: 0rem;
+    background-color: #3496d8;
+    z-index: 3;
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.gallery-item:hover .gallery-item-underline {
+    height: 1rem;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.gallery-button {
+    display: flex;
+    justify-content: center;
+}
+
+.manual-button {
+    border: 1px solid #c0c0c0;
+    border-radius: 50px;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    background: #c0c0c0;
+}
+
+#manual-button1 {
+    border: 1px solid #3496d8;
+    background: #3496d8;
+}
+
+.manual-button:hover {
+    border: 1px solid #3496d8;
+    background: #3496d8;
+}
+
