@@ -28,6 +28,10 @@
 
 
 
+
+
+
+
 ### Languages and Tools:
 <img align="left" alt="Visual Studio Code" width="44px" src="https://www.solucionex.com/sites/default/files/posts/imagen/vscode-800x450.png"/>
 <img align="left" alt="HTML" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/1200px-HTML5_logo_resized.svg.png"/>
