@@ -1,1 +1,28 @@
-h1 hello mao
+section#contact.section-pad-top(style='background-position: center -211px;')
+    .container.tm-container-contact
+    .row
+    .col-12
+        h2.section-title Contact Us
+        .underline
+          .underline-inner
+        p.content
+            | Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui,
+            | non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices
+            | viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque
+            | at at velit.
+      .item-contact
+        a.contact-item-link(href='tel:0100200340')
+          i.fas.fa-phone
+          span.hehe 010-020-0340
+      .item-contact
+        a.contact-item-link(href='mailto:info@company.co')
+          i.fas.fa-envelope
+          span.hehe info@company.co
+      .item-contact
+        a.contact-item-link(href='https://www.google.com/maps')
+          i.fas.fa-map-marker-alt
+          span.hehe Location on Maps
+      .item-contact
+        form(action='' method='get')
+          input.input(name='email' type='email' placeholder='Subscribe your email' required='')
+          button.btn.submit(type='submit') Submit
