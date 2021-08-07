@@ -6,24 +6,26 @@ head
   title Document
   link(rel='stylesheet' href='style.css')
 .navbar
-  .container
-    .navbar-title
-      a(href='#')
-        h2 The Town
-    .navbar-collapse
-      ul.ml
+  .navbar-container-menu
+    .navbar-logo
+      a.navbar-logo-1(href='#')
+        | The Town
+    .navbar-menu
+      ul.navbar-menu-list
         li.nav-item
           a.nav-item-link(href='#') Introduction
         li.nav-item
           a.nav-item-link(href='#') Our Work
         li.nav-item
           a.nav-item-link(href='#') Contact Us
-.menu
+    .toggle
+      input.btn-toggle(type='checkbox')
+.bg
   h2.menu-title The Town
   p.menu-subtitle
-    | Parallax Bootstrap Theme 
+    | Parallax Bootstrap Theme
     br
     |             by TemplateMo
   .button
-    .button1
+    a.button1(href='#')
       .button2
