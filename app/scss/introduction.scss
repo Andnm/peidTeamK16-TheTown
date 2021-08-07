@@ -1,0 +1,168 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a3aeb6;
+}
+.introduction{
+    padding-top: 100px;
+    padding-bottom: 100px ;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 992px){
+.image{
+
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 70%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+}
+.intro-ima{
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: auto;
+}
+
+.ima{
+    max-width: 100%;
+    height: auto;
+}
+.img{
+    vertical-align: middle;
+    border-style: none; 
+}
+.content{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media(min-width: 768px) {
+    .cont{
+        padding-left: 15px;
+        max-width: fit-content;
+    }
+}
+
+.row{
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.text-section{
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+.text-primary{
+    color: #3496d8;
+}
+.mb-4{
+    margin-bottom: 1.5rem!important;
+}
+.intro.text{
+    margin-left: 135px;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.h2{
+    font-family: inherit;
+    line-height: 1.2;
+}
+.mb-5{
+    margin-bottom: 1.5rem!important;
+}
+.p{
+    margin-top: 0;
+}
+.next{
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn-primary{
+    color: white;
+    background-color: #3496d8;
+    padding: 14px 35px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.containintro{
+    justify-content: space-around;
+    padding: 135px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.detail{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.icon{
+    display: block;
+    margin-bottom: 55px;
+    color: #3496d8;
+    transform: translate(100%,50%);
+}
+.fa-4x{
+    font-size: 4em;
+}
+.fa, fas{
+    font-weight: 900;
+}
+.fa, .far, .fas{
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fal, .far, .fas{
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.text-center{
+    text-align: center;
+
+}
+.h4{
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+    box-sizing: border-box;
+}
+.p{
+    line-height: 1.9;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+}
+.con{
+    justify-content: space-around;
+}
+.mt-lg-0{
+    margin-top: 0!important;
+}
