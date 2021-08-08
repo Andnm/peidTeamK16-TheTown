@@ -1,101 +1,98 @@
 div.container__our-work
     div.text-center
-        h1.title Our Work
-        p.content "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia."
+        h1.text-center__title Our Work
+        p.text-center__content "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia."
     div.gallery
-        div.gallery-collection
-            div.gallery-item
-                div.gallery-item-img 
+        div(class="gallery__collection" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}')
+            div(class="gallery-item" id="gallery-item1")
+                div.gallery-item__img 
                     img(src="./images/gallery-tn-01.jpg")
-                div.gallery-item-content
+                div.gallery-item__content
                     p 
                         |dream
                         br
                         span honey
                         br
                         |now
-                div.gallery-item-underline
+                div.gallery-item__underline
             div.gallery-item
-                div.gallery-item-img 
+                div.gallery-item__img 
                     img(src="./images/gallery-tn-02.jpg")
-                div.gallery-item-content 
+                div.gallery-item__content 
                     p 
                         |second
                         br
                         span honey
                         br
                         |now
-                div.gallery-item-underline
-            div.gallery-item
-                div.gallery-item-img 
+                div.gallery-item__underline
+            div(class="gallery-item" id="gallery-item3")
+                div.gallery-item__img 
                     img(src="./images/gallery-tn-03.jpg")
-                div.gallery-item-content 
+                div.gallery-item__content 
                     p 
                         |third
                         br
                         span honey
                         br
                         |now
-                div.gallery-item-underline
+                div.gallery-item__underline
             div.gallery-item
-                div.gallery-item-img 
+                div.gallery-item__img 
                     img(src="./images/gallery-tn-04.jpg")
-                div.gallery-item-content 
+                div.gallery-item__content 
                     p 
                         |dream
                         br
                         span honey
                         br
                         |now
-                div.gallery-item-underline
-            div.gallery-item
-                div.gallery-item-img 
+                div.gallery-item__underline
+            div(class="gallery-item" id="gallery-item5")
+                div.gallery-item__img 
                     img(src="./images/gallery-tn-05.jpg")
-                div.gallery-item-content 
+                div.gallery-item__content 
                     p 
                         |fifth
                         br
                         span honey
                         br
                         |now
-                div.gallery-item-underline
+                div.gallery-item__underline
             //- div.gallery-item
-            //-     div.gallery-item-img 
+            //-     div.gallery-item__img 
             //-         img(src="./images/gallery-tn-06.jpg")
-            //-     div.gallery-item-background
-            //-     div.gallery-item-content 
+            //-     div.gallery-item__content 
             //-         p 
             //-             |sixth
             //-             br
             //-             span honey
             //-             br
             //-             |now
-            //-     div.gallery-item-underline
+            //-     div.gallery-item__underline
             //- div.gallery-item
-            //-     div.gallery-item-img 
+            //-     div.gallery-item__img 
             //-         img(src="./images/gallery-tn-01.jpg")
-            //-     div.gallery-item-background
-            //-     div.gallery-item-content 
+            //-     div.gallery-item__content 
             //-         p 
             //-             |dream
             //-             br
             //-             span honey
             //-             br
             //-             |now
-            //-     div.gallery-item-underline
+            //-     div.gallery-item__underline
             //- div.gallery-item
-            //-     div.gallery-item-img 
+            //-     div.gallery-item__img 
             //-         img(src="./images/gallery-tn-02.jpg")
-            //-     div.gallery-item-background
-            //-     div.gallery-item-content 
+            //-     div.gallery-item__content 
             //-         p 
             //-             |eighth
             //-             br
             //-             span honey
             //-             br
             //-             |now
-            //-     div.gallery-item-underline
-        div.gallery-button
+            //-     div.gallery-item__underline
+        div.gallery__button
             button(class="manual-button" id="manual-button1")
             button.manual-button
             button.manual-button
