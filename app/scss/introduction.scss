@@ -3,39 +3,43 @@ html {
     color: #a3aeb6;
 }
 .container_introduction{
-    margin-left: 100px ;
-    margin-right: 100px;
-    padding-right: 15px;
-    padding-left: 15px ;
+    padding-top: 50px ;
 }
 .container{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px ;
-    padding-bottom: 50px;
-    margin: 0 auto;
+    margin-left: 50px;
+    //margin-right: 150px;
+    //padding: 50px;
 }
 .image{
-    position: static;
-    margin: 0 auto ;
-    padding-top: 0 auto;
+    position: relative;
+    margin-left: 150px;
+    //margin-bottom: 50px;
+    padding-top: 50px;
+    padding-left:50px ;
+    padding-right: 50px;
+
 }
 .ima{
     display: block;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     margin-left: auto; 
     margin-right: auto;
-    margin-bottom: 5px;
-    padding-top: 20px;
+    //margin-bottom: 5px;
+    //padding-top: 20px;
+    //padding-right: 15px;
 }
 .text_intro{
     font-size: 100%;
     position: static;
     display: block;
-    margin: 0 auto;
-    padding: 0 auto;
-    padding-top: 50px;
+    //margin-left: auto;
+    //margin-right: auto;
+    padding-left: 20px;    
+    padding-right: 150px;
+    padding-top: 70px;
     padding-bottom: 50px;
     max-width: 100%;
     line-height: 1.5;
@@ -50,9 +54,14 @@ html {
 .intro-text{
     line-height: -1rem;
     padding-top: 10px ;
+    //margin-right: 180px;
+}
+.p{
+    padding-left: 50px;
 }
 .next{
-    padding-top: 20px;
+    padding-top: 30px;
+    display: block;
 }
 .button{
     background-color: #3496d8;
@@ -65,5 +74,23 @@ html {
 .content{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 70px;
+    padding-left: 230px;
+    padding-right: 130px;
+    margin-right: 150px;
+}
+.detail{
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.fas{
+    padding-bottom: 50px;
+}
+.primary{
+    color: #3496d8;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 50px;
 }
