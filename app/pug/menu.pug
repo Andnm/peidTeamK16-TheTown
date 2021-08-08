@@ -1,25 +1,27 @@
-
 .navbar
   .navbar-container-menu
     .navbar-logo
-      a.navbar-logo-1(href='#')
+      a.navbar-logo__text(href='#')
         | The Town
+    input#check.btn-toggle(type='checkbox')
     .navbar-menu
-      ul.navbar-menu-list
+      ul.navbar-menulist
         li.nav-item
-          a.nav-item-link(href='#') Introduction
+          a.nav-item__link(href='#') Introduction
         li.nav-item
-          a.nav-item-link(href='#') Our Work
+          a.nav-item__link(href='#') Our Work
         li.nav-item
-          a.nav-item-link(href='#') Contact Us
+          a.nav-item__link(href='#') Contact Us
     .toggle
-      input.btn-toggle(type='checkbox')
+      label(for='check')
+        i.fas.fa-bars.navbar-toggler__icon  
 .bg
-  h2.menu-title The Town
-  p.menu-subtitle
+  h2.bg-title The Town
+  p.bg-subtitle
     | Parallax Bootstrap Theme
     br
     |             by TemplateMo
   .button
     a.button1(href='#')
       .button2
+script(src='https://kit.fontawesome.com/5a8f26faaf.js' crossorigin='anonymous')
