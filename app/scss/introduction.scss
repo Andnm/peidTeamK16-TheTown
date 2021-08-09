@@ -17,10 +17,10 @@ html {
     width: 600px;
     height: 400px;
 }
-.text_intro{
+//.text_intro{
     //display: flex;
-    padding-left: 10px;
-}
+    //padding-left: 10px;
+//}
 
 .text-title h2 {
     font-size: 40px;
@@ -69,36 +69,78 @@ html {
 }
 .detail{
     padding-right:20px ;
-    padding-left:2px ;
+    padding-left:20px ;
 }
 .primary {
     text-align: center;
     color: #3496d8;
 }
 .primary h4{
+    font-size: 25px;
     padding-top: 40px;
+    font-weight: 500;
 }
 .content_text{
     padding-top: 40px;
     color: #a3aeb6;
 }
+@media screen and (max-width: 1260px) {
+    .container{
+        display: flex;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 0 auto;
+        .image{
+            margin: 0 auto;
+            max-width: 480px; 
+            img{
+            margin: 0 auto;
+            max-width: 450px;
+            height: auto;
+         }}
+        .text_intro{
+            margin: 0 auto;
+            max-width: 480px;
+            padding-left: 50px; 
+            .text-title h2{
+                padding-top: 10px;
+            .intro-text{
+                margin: 0 auto;
+                width: 450px;
+                height:460px ;
+            }
+            }
+        }    
+        
+    }
+}
+
 @media screen and (max-width: 990px) {
     .container{
         display: flex;
         flex-direction: column;
         width: 720px;
         margin: 0 auto;
-        .text-title h2{
-            padding-top: 10px;
-        .intro-text{
-            max-width: 300px;
-         }
-        .image img{
+        .image{
             margin: 0 auto;
-            width: 600px;
-         }
-        }
+            max-width: 720px;
+            .img{
+            margin: 0 auto;
+            max-width: 600px;
+         }}
+        .text_intro{
+            margin: 0 auto;
+            max-width: 720px;    
+            .text-title h2{
+                padding-top: 10px;
+            .intro-text{
+                margin: 0 auto;
+                width: 300px;
+                height: auto;
+            }
+            }
     }
+}
 }
 @media screen and ( max-width:990px ){
     .content{
@@ -116,7 +158,7 @@ html {
     .container{
         display: flex;
         flex-direction: column;
-        max-width: 520px;
+        max-width: 540px;
         .image img{
             margin: 0 auto ;
             width: 510px;
@@ -124,13 +166,16 @@ html {
         }
         .text_intro{
             margin: 0 auto;
-            width: 520px;
+            width: 510px;
             //padding-right: 2.5px;    
         }
         .intro-text{
             margin: 0 auto;
-            width: 520px;
-            //font-size: 20px;
+            width: 510px;
+        }
+        .button{
+            margin: 0 auto;
+            width: 174px;
         }    
         
     }
