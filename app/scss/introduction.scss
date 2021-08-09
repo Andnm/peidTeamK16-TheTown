@@ -103,27 +103,22 @@ html {
 
 @media screen and (max-width: 1260px) {
   .container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 1180px;
     .image {
       margin: 0 auto;
-      max-width: 480px;
-      img {
-        margin: 0 auto;
-        max-width: 450px;
-        height: auto;
-      }
+      max-width: 450px;
+    }
+    .image img {
+      width: 450px !important;
+      height: 300px !important;
     }
     .text_intro {
       margin: 0 auto;
       max-width: 480px;
-      padding-left: 50px;
+  
       .text-title h2 {
         padding-top: 10px;
         .intro-text {
-          margin: 0 auto;
           width: 450px;
           height: 460px;
         }
@@ -138,9 +133,8 @@ html {
 
 @media screen and (max-width: 990px) {
   .container {
-    display: flex;
     flex-direction: column;
-    width: 720px;
+    // width: 720px;
     margin: 0 auto;
     .image {
       margin: 0 auto;
@@ -164,14 +158,9 @@ html {
       }
     }
   }
-  .image img {
-    width: 600px;
-    height: 400px;
-  }
 
   .content {
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     max-width: 720px;
     .detail {
@@ -182,14 +171,8 @@ html {
 
 @media screen and (max-width: 728px) {
   .container {
-    display: flex;
     flex-direction: column;
     max-width: 540px;
-    .image img {
-      margin: 0 auto;
-      width: 510px;
-      height: auto;
-    }
     .text_intro {
       margin: 0 auto;
       // width: 510px;
@@ -205,12 +188,11 @@ html {
     }
   }
   .content {
-    display: flex;
     flex-direction: column;
     max-width: 520px;
     .detail {
       margin: 0 auto;
-      width: 520px;
+      // width: 520px;
     }
     .primary {
       padding-top: 50px;
@@ -218,33 +200,44 @@ html {
   }
 }
 
-// @media screen and ( max-width: 525px ){
-//     .container{
-//         display: flex;
-//         flex-direction: column;
-//         max-width: 50%;
-//         .image img{
-//             margin: auto ;
-//             width: 345px;
-//             height: auto;
-//         }
-//         .text_intro{
-//             margin: 0 auto;
-//             width: 345px;
-//             padding-right: 2.5px;
-//         }
-//         .intro-text{
-//             margin: 0 auto;
-//             width: 345px;
-//             //font-size: 20px;
-//         }
-//     }
-//     .content{
-//         display: flex;
-//         flex-direction: column;
-//         max-width: 50%;
-//     }
-//         .detail{
-//             margin: 0 auto;
-//         }
-// }
+@media (max-width: 480px) {
+  .image {
+    min-width: 200px;
+  }
+
+  .image img {
+    margin: 0 auto;
+    min-width: 200px;
+    
+  }
+
+  .text_intro {
+    max-width: 200px;
+  }
+
+  .intro-text {
+    width: 300px;
+    height: auto;
+  }
+
+  .next {
+    margin-top: 35px;
+  }
+
+  
+}
+
+@media (max-width: 300px) {
+
+
+
+
+  .intro-text {
+    width: 270px;
+    height: auto;
+  }
+
+  .next {
+    margin-top: 35px;
+  }
+}
