@@ -1,3 +1,8 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 .bg {
   height: 100vh;
   background-image: url("../images/the-town-bg-01.jpg");
@@ -11,7 +16,7 @@
 }
 
 .navbar {
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 1000;
   padding: 0.5rem 1rem;
@@ -117,8 +122,8 @@
   border-radius: 50000%;
 }
 
-.navbar-logo__text:hover,
-.nav-item__link:hover {
+.navbar-logo-1:hover,
+.nav-item-link:hover {
   color: #3496d8;
   transition: 0.3s;
 }
@@ -223,7 +228,7 @@
   }
 }
 
-@media (max-width: 559px) {
+@media (max-width: 573px) {
   .navbar-container-menu,
   .navbar-menulist {
     width: 100%;
