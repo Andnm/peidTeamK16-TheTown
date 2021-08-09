@@ -1,0 +1,236 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.bg {
+  height: 100vh;
+  background-image: url("../images/the-town-bg-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-container-menu {
+  max-width: 1275px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  height: 100%;
+}
+
+.navbar-logo__text {
+  height: 100%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 0.46875rem;
+  padding-bottom: 0.46875rem;
+  margin-right: 1.5rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.nav-item__link {
+  text-decoration: none;
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: white;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.nav-item {
+  list-style-type: none;
+
+  &:last-child {
+    padding-right: 0rem;
+  }
+}
+
+.navbar-menulist {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bg-title,
+.bg-subtitle {
+  color: white;
+  display: block;
+}
+
+.bg-title {
+  font-size: 6rem;
+  text-shadow: 2px 2px 2px #333;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.bg-subtitle {
+  font-size: 2.14rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin: 0px 0px 18px;
+  line-height: 1.9;
+}
+
+.button1 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  padding: 10px 22px 8px;
+  transition: all 0.3s ease;
+  transform: translateY(15rem);
+  position: relative;
+  z-index: 0;
+  display: flex;
+}
+
+.button2 {
+  width: 8rem;
+  height: 8rem;
+  background-color: #c57e7d;
+  z-index: 1;
+  clip-path: polygon(0 36%, 51% 78%, 100% 36%);
+  border-radius: 50000%;
+}
+
+.navbar-logo__text:hover,
+.nav-item__link:hover {
+  color: #3496d8;
+  transition: 0.3s;
+}
+
+.button1:hover {
+  background-color: rgb(94, 164, 245);
+  transition: 0.3s;
+
+  .button2 {
+    background-color: white;
+    transition: 0.3s;
+  }
+}
+
+.toggle,
+.btn-toggle {
+  display: none;
+}
+
+@media (min-width: 938px) and (max-width: 1199px) {
+  .navbar-container-menu {
+    width: 930px;
+  }
+}
+
+@media (max-width: 938px) and (min-width: 768px) {
+  .navbar-container-menu {
+    width: 690px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-container-menu {
+    width: 540px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-container-menu {
+    width: 540px;
+  }
+
+  .toggle {
+    display: flex;
+    justify-content: right;
+  }
+
+  .navbar {
+  }
+
+  .navbar-menu {
+    width: 100%;
+    position: absolute !important;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 999;
+    background-color: #ffffff;
+  }
+
+  .nav-item__link {
+    color: #8f8f8f;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .navbar-menulist {
+    text-align: right;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav-item {
+    width: 30rem;
+    height: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+  }
+
+  .navbar-toggler__icon {
+    color: white;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    font-size: 2.5rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  .navbar-menu,
+  #check {
+    display: none;
+  }
+
+  .btn-toggle:checked ~ .navbar-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 559px) {
+  .navbar-container-menu,
+  .navbar-menulist {
+    width: 100%;
+  }
+}
