@@ -4,6 +4,7 @@ html {
 }
 
 .bg {
+  
   height: 100vh;
   background-image: url("../images/the-town-bg-01.jpg");
   background-repeat: no-repeat;
@@ -17,9 +18,12 @@ html {
 
 .navbar {
   position: fixed;
-  width: 100%;
+  right: 0;
+  left: 0;
   z-index: 1000;
   padding: 0.5rem 1rem;
+  background-color: rgb(238, 139, 74);
+  opacity: 50%;
 }
 
 .navbar-container-menu {
