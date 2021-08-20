@@ -109,8 +109,8 @@ html {
       max-width: 450px;
     }
     .image img {
-      width: 450px !important;
-      height: 300px !important;
+      max-width: 450px;
+      max-height: 300px;
     }
     .text_intro {
       margin: 0 auto;
@@ -206,9 +206,8 @@ html {
   }
 
   .image img {
-    margin: 0 auto;
-    min-width: 200px;
-    
+    max-width: 290px !important;
+    max-height: 193px !important;
   }
 
   .text_intro {
@@ -228,9 +227,6 @@ html {
 }
 
 @media (max-width: 300px) {
-
-
-
 
   .intro-text {
     width: 270px;
