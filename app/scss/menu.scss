@@ -23,7 +23,7 @@ html {
   z-index: 1000;
   padding: 0.5rem 1rem;
   background-color: rgb(238, 139, 74);
-  opacity: 50%;
+  opacity: 100%;
 }
 
 .navbar-container-menu {
@@ -111,8 +111,9 @@ html {
   border-radius: 50%;
   padding: 10px 22px 8px;
   transition: all 0.3s ease;
-  transform: translateY(15rem);
+  
   position: relative;
+  top: 13rem;
   z-index: 0;
   display: flex;
 }
