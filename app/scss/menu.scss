@@ -126,8 +126,8 @@ html {
   border-radius: 50000%;
 }
 
-.navbar-logo__text:hover,
-.nav-item__link:hover {
+.navbar-logo-1:hover,
+.nav-item-link:hover {
   color: #3496d8;
   transition: 0.3s;
 }
@@ -232,7 +232,7 @@ html {
   }
 }
 
-@media (max-width: 559px) {
+@media (max-width: 573px) {
   .navbar-container-menu,
   .navbar-menulist {
     width: 100%;

@@ -1,0 +1,36 @@
+script(src='https://kit.fontawesome.com/d2c276d5c1.js' crossorigin='anonymous')
+link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We' crossorigin='anonymous')
+
+section#contact.section-pad-top.parallax-2
+  .container.container-contact
+    .row
+      .col-12
+        h1.mb-4.section-title Contact Us
+        .mb-5.underline
+          .underline-inner
+        p.mb-5
+          | Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui,
+          | non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices
+          | viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque
+          | at at velit.
+      .col-sm-12.col-md-6.d-flex.align-items-center.contact-item
+        a.contact-item-link(href='tel:0100200340')
+          i.fas.fa-3x.fa-phone.mr-4
+          span.mb-1  010-020-0340
+      .col-sm-12.col-md-6.d-flex.align-items-center.contact-item
+        a.contact-item-link(href='mailto:info@company.co')
+          i.fas.fa-3x.fa-envelope.mr-4
+          span.mb-1  info@company.co
+      .col-sm-12.col-md-6.d-flex.align-items-center.contact-item
+        a.contact-item-link(href='https://www.google.com/maps')
+          i.fas.fa-3x.fa-map-marker-alt.mr-4
+          span.mb-1  Location on Maps
+      .col-sm-12.col-md-6.d-flex.align-items-center.contact-item
+        form(action='' method='get')
+          input.input(name='email' type='email' placeholder='Subscribe your email' required='')
+          button.btn-submit(type='submit') Submit
+  footer.text-center.small.footer
+    p.mb-0
+      | Copyright &copy; 2019 Company Name 
+      | - Design: 
+      a.footer-link(rel='nofollow' href='https://templatemo.com') Template Mo
