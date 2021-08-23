@@ -1,0 +1,136 @@
+html {
+	font-size: 18px;
+  }
+  
+  body {
+	color: #b1abab;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+  }
+  
+  p {
+	line-height: 1.5;
+  }
+  
+  #contact {
+	color: white;
+	background-image: url(../images/the-town-bg-02.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 850px;
+	position: relative;
+	padding-bottom: 50px;
+	padding-top: 160px;
+	background-attachment: scroll;
+  }
+  
+  .underline {
+	border-top: 2px solid white;
+	height: 8px;
+	width: 100%;
+  }
+  
+  .underline-inner {
+	width: 25%;
+	height: 8px;
+	background: white;
+  }
+  
+  .contact-item {
+	margin-bottom: 80px;
+  }
+  
+  .contact-item-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+  
+	i {
+	  color: white;
+	  transition: all 0.3s ease;
+	}
+  
+	span {
+	  color: white;
+	  transition: all 0.3s ease;
+	  margin-left: 30px;
+	}
+  
+	&:hover {
+	  i, span {
+		color: rgb(53, 151, 214);
+	  }
+	}
+  }
+  
+  .input {
+	padding: 8px 25px;
+	border-radius: 3px;
+	border: 1px solid white;
+	background: transparent;
+	color: white;
+  }
+  
+  ::placeholder {
+	color: white;
+	opacity: 1;
+  }
+  
+  :-ms-input-placeholder, ::-ms-input-placeholder {
+	color: white;
+  }
+  
+  .btn-submit {
+	margin: 0px 0px 0px 20px;
+	padding: 8px 32px;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	border: 2px solid transparent;
+	background-color: white;
+	color: black;
+  }
+  .footer {
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+	right: 0;
+	padding: 0 15px;
+  }
+  
+  .footer-link {
+	color: white;
+  
+	&:hover, &:focus {
+	  color: #3496d8;
+	  text-decoration: none;
+	}
+  }
+  
+  @media (max-width: 991px) {
+	.btn-submit {
+	  margin-left: 0;
+	  margin-top: 20px;
+	}
+  }
+  
+  @media (max-width: 767px) {
+	.btn-submit {
+	  margin-left: 20px;
+	  margin-top: 0;
+	}
+  }
+  
+  @media (max-width: 420px) {
+	.btn-submit {
+	  display: block;
+	  margin-left: 0;
+	  margin-top: 20px;
+	}
+  }
