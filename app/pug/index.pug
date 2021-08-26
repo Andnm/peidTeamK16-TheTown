@@ -13,7 +13,7 @@ html(lang="en")
                 let target = $(this).attr("href");
                 $('html,body').stop().animate({
                     scrollTop: $(target).offset().top
-                }, 1000);
+                }, 1200);
                 event.preventDefault();
                 });
             });
@@ -21,4 +21,4 @@ html(lang="en")
         include menu.pug
         include introduction.pug
         include ourWork.pug
-        //- include contactUs.pug 
+        include contactUs.pug 
