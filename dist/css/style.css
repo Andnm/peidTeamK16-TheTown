@@ -340,14 +340,14 @@ body {
     max-width: 450px;
     max-height: 300px;
   }
-  .container .text_intro {
+  .container .content-introduction {
     margin: 0 auto;
     max-width: 480px;
   }
-  .container .text_intro .text-title h2 {
+  .container .content-introduction .text-title h2 {
     padding-top: 10px;
   }
-  .container .text_intro .text-title h2 .intro-text {
+  .container .content-introduction .text-title h2 .intro-text {
     width: 450px;
     height: 460px;
   }
@@ -370,15 +370,15 @@ body {
     margin: 0 auto;
     max-width: 600px;
   }
-  .container .text_intro {
+  .container .content-introduction {
     margin: 0 auto;
     max-width: 720px;
     padding-left: 0px;
   }
-  .container .text_intro .text-title h2 {
+  .container .content-introduction .text-title h2 {
     padding-top: 10px;
   }
-  .container .text_intro .text-title h2 .intro-text {
+  .container .content-introduction .text-title h2 .intro-text {
     margin: 0 auto;
     width: 300px;
     height: auto;
@@ -398,7 +398,7 @@ body {
     flex-direction: column;
     max-width: 540px;
   }
-  .container .text_intro {
+  .container .content-introduction {
     margin: 0 auto;
   }
   .container .intro-text {
@@ -430,7 +430,7 @@ body {
     max-height: 193px !important;
   }
 
-  .text_intro {
+  .content-introduction {
     max-width: 200px;
   }
 
