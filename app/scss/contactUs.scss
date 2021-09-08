@@ -3,10 +3,14 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
+	padding-top:  160px;
+	position: relative;
+	height: auto;
 	.contact-us {
 	  min-height: 850px;
 	  width: 100%;
+	  height: auto;
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
@@ -104,11 +108,12 @@
 	  }
 	}
   }
-@media (min-width: 1200px) {
+  @media (min-width: 1200px) {
 	.TheTownContact {
-	  max-width: 1140px;
+	  max-width: 12480px;
 	}
 }
+
 @media (max-width: 991px){
 	.contact-us__method,  .contact-us__other{
         flex-direction: column;
