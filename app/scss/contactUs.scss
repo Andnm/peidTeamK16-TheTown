@@ -34,6 +34,7 @@
 	  &__content {
 		line-height: 1.5;
 		margin-bottom: 3em;
+		font-size: 1.5em;
 	  }
 	  &__method {
 		display: flex;
@@ -63,9 +64,8 @@
 		  }
 		}
 		&__subcribe{  
-			display: flex;
+			display: block;
 			gap: 20px;
-  
 		  input{
 			  min-height: 0;
 			  border: 1px solid #fff;
@@ -73,7 +73,9 @@
 			  padding: 8px 25px;
 			  color: #fff;
 			  outline: none;
-			  font-size: 100%;            
+			  font-size: 100%;
+			  max-width: 300px;
+              min-width: none;
 			  &::placeholder{
 				  color: #fff;
 			  }            
@@ -100,9 +102,23 @@
 	}
   }
   
-  @media screen and (max-width: 976px) {
-	  .contact-us__method,  .contact-us__other{
-		  flex-direction: column;
-		  gap: 50px;
-	  }
+
+@media screen and (max-width: 976px) {
+    .contact-us__method,  .contact-us__other{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .contact-us__other{
+        margin-left: 20px;
+        margin-top: 0;
+        min-width: 0;
   }
+}
+@media screen and (max-width: 300px) {
+    .contact-us__other{
+    	margin-left: 0;
+    	margin-top: 20px;
+  }
+}
